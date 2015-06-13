@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Алые паруса</title>
+    <meta name="author" content="out" >
+    <meta name="Description" content="description">
+    <meta name="Keywords" content="keywords">
+    <meta charset="utf-8">
+    <link rel="icon" type="icon" href="img/Circle-icon.png">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <style>
+.reset    {margin:0;padding:0;}
+.clear    {clear:both;}
+.cleared:after {content:".";display:block;height:0;clear:both;visibility:hidden;}
+.right    {float:right;}
+.left    {float:left;}
+a img    {border:0;}
+img        {max-width:100%;}
+header, nav, section, article, aside, footer {display:flex;}
+body    {margin:0;padding:0;}
+    </style>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="http://vk.com/js/api/openapi.js" type="text/javascript"></script>
+    <script>
+$(document).ready(function(){
+
+});
+    </script>
+</head>
+
+<body>
+	<div id="convas">
+    <header>
+    	<div id="undername">
+    		<div>
+	    		<h2>свадебное агентство</h2>	
+    		</div>
+    	</div>
+    	<div class="general">
+    		<div class="box">
+	    		<div>
+		    		<h1 class="name"><a href="">Алые Паруса</a></h1>
+		    	</div>
+		    	<div class="address">
+		    		<span>Сыктывкар, Покровский бульвар, дом 3, тел.: +7 (8212) 567-198</span>
+		    	</div>
+		    	<div class="date">
+	    			<a href='#phone' class='button'>запланировать встречу</a>
+	    		</div>
+    		</div>
+    	</div>
+    </header>
+    <nav>    
+    	<div class="nav">
+    		<a href="#aboutus">О нас</a>
+    		<div id="diamond"> </div>
+    		<a href="#services">Услуги</a>
+    		<div id="diamond"> </div>
+    		<a href="#contacts">Контакты</a>
+    		<div id="diamond"> </div>
+    		<a href="">Отзывы</a>    
+    	</div>
+    	<div class="navmin">
+    		<a href="#aboutus">Меню</a>   
+    	</div> 
+    </nav>
+    <section>
+        <article id="aboutus">
+        		<div class="text">
+					<h3>Зачем нужны услуги свадебного агентства?</h3>
+					<p>
+					Есть люди, которые думают, что организация свадеб - это пустяк, с которым они без труда справятся сами. 
+					
+					И поэтому клише, морально устаревшие ещё 15 лет назад, они с удовольствием повторяют на своих праздниках. 
+					
+					Когда вы в последний раз видели свидетелей с красными ленточками на плечах или молодожёнов, выпускающих 
+					
+					голубей около ЗАГСа? Большинство людей, готовы поспорить мы, видели эти атрибуты ушедшей свадебной моды 
+					
+					совсем недавно. И именно в такие моменты становится понятно, зачем парам нужен свадебный организатор - 
+					
+					вы имеете право не следить за свадебной модой, но рядом обязательно должен быть человек, который, трезво 
+					
+					глядя на ситуацию, поможет вам сделать свадьбу незабываемой и действительно красивой. Только в таком 
+					
+					случае даже к вашей Серебряной годовщине вспоминать "тот самый" день будет действительно приятно! Вот 
+					
+					почему организация свадеб - наша горячо любимая работа!
+					</p>
+				</div>
+				<div class="text">
+					<h3>Добро пожаловать на сайт свадебного агентства Алые паруса!</h3>	
+					<p>
+					Подготовка к свадьбе – процесс волнительный и нелегкий одновременно, а потому если вы ищете себе не просто 
+					
+					свадебного организатора, а грамотного проводника по бескрайнему миру красивых и стильных торжеств, у нас 
+					
+					вы найдёте много интересной и полезной информации. Ну а если вы ищете свадебное агентство, чтобы оградить 
+					
+					себя от лишних хлопот и доверить организацию вашего торжества профессионалам - мы однозначно найдём общий язык!
+					
+					Наша "фишка" - создание поистине уникального торжества для каждой пары, поэтому нашим клиентам не грозит 
+					
+					стать чьей-то копией. Мы активно сотрудничаем с лучшими профессионалами свадебной индустрии, а потому 
+					
+					всегда гарантируем своим молодоженам превосходный результат даже в самых экстремальных ситуациях. Ваш 
+					
+					праздник с Алыми парусами – полное погружение в атмосферу радости и отсутствие хлопот!	
+					</p>
+				</div>        
+        </article>
+    </section>
+    <section>
+        <article id="phone">
+        		<div class="text2">
+        			<div><p>Оставте нам свой номер и мы свяжемся с вами!</p></div>
+				</div>
+				<div class="form">
+					<form class="form-container">
+						<div class="form-title"><h2>Заказать звонок</h2></div>
+						<div class="form-title">Имя</div>
+						<input class="form-field" type="text" name="firstname" /><br />
+						<div class="form-title">Телефон</div>
+						<input class="form-field" type="text" name="email" /><br />
+						<div class="submit-container">
+							<input class="submit-button" type="submit" value="отправить" />
+						</div>
+					</form>
+				</div>        
+        </article>
+    </section>
+    <section>
+        <article id="services">
+        		<div class="list">
+					<ul>
+						<li><i class="fa fa-heart-o"></i>Организация</li>
+						<li><i class="fa fa-heart-o"></i>Выездная церемония</li>
+						<li><i class="fa fa-heart-o"></i>Оформление</li>
+						<li><i class="fa fa-heart-o"></i>Съемка</li>
+						<li><i class="fa fa-heart-o"></i>Развлечения на банкете</li>
+						<li><i class="fa fa-heart-o"></i>Стиль</li>
+						<li><i class="fa fa-heart-o"></i>Аренда</li>					
+					</ul>
+				</div>    
+        		<div class="text">
+        			<h3>День вашей свадьбы будет идеально срежиссирован: с самого утра до завершения банкета</h3>
+        			<p>
+        			Если вы видите свою свадьбу яркой и динамичной, стильной в оформлении и продуманной даже 
+        			
+        			в мелочах – свадебное агентство Алые паруса к вашим услугам!<br>
+
+					Мы всегда готовы предложить нашим парам проверенных специалистов, среди которых лучшие в своей области фотографы 
+					
+					и операторы, визажисты и стилисты, декораторы и художники, флористы и оформители.<br>
+					
+					Также мы готовы предложить нашим любимым клиентам услуги, которые послужат отличным развлечением для их гостей 
+					
+					на время регистрации и банкета: всевозможные варианты фуршетного оформления, бармен-шоу, выступления живых 
+					
+					артистов, мастер-классы и лаунж-зоны.<br>
+					
+					Если вы против морально устаревших традиций с замочками и голубями и готовы увидеть свою свадьбу современной 
+					
+					и запоминающейся, мы знаем, чем вас удивить!
+					</p>
+				</div>	    
+        </article>
+    </section>
+    <aside id="contacts">
+    	<div class="we">
+    		<h4>Нас можно найти</h4>
+    		<p>
+    		г. Сыктывкар <br>
+    		
+    		Покровский бульвар, дом 3 <br> 
+    		
+    		<i class="fa fa-phone"></i> +7 (8212) 567-198<br>
+	
+			<i class="fa fa-envelope-o"></i></i>parusawedd@gmail.com
+			</p>
+		</div>
+    	<div class="we">
+    		<h4>Поделись</h4>
+	    		<a class="btn" href="#"><div class="social"><i class="fa fa-vk"></i>share</div></a>
+	    		<a class="btn" href="#"><div class="social"><i class="fa fa-facebook-official "></i>Like</div></a>
+	    		<a class="btn" href="#"><div class="social"><i class="fa fa-twitter-square"></i>Tweet</div></a>
+    	</div>
+    	<div class="we">
+    		<h4>Подпишись</h4>
+    		<div id="vk_groups"></div>
+			<script type="text/javascript">
+			VK.Widgets.Group("vk_groups", {mode: 1, width: "230", height: "200", color1: 'FFFFFF', color2: '2B587A', color3: '6699CC'}, 71522307);
+			</script>
+    	</div>
+    </aside>
+    <footer>
+    	<span><i class="fa fa-copyright"></i> Алые паруса 2015</span>
+    </footer>
+   </div>
+</body>
+</html>
